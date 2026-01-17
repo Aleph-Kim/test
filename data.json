@@ -1,0 +1,164 @@
+{
+  "profile": {
+    "name": "김채민",
+    "nameEn": "Han Sang Hyek",
+    "title": "Web Developer PHP/Laravel",
+    "github": "https://github.com/sanghyek223",
+    "blog": "https://asufi.tistory.com",
+    "email": "hyek223@kakao.com",
+    "birthday": "2000-06-17",
+    "phone": "010-5564-6224",
+    "careerStart": "2020-06-01",
+    "typedItems": ["Han Sang Hyek", "Web Developer PHP/Laravel"],
+    "aboutText": "PHP 기반 백엔드 개발자 한상혁입니다.<br> Laravel과 CodeIgniter 중심으로 약 <span class=\"career\"></span>간 다양한 웹 서비스를 개발·운영해왔습니다.<br> 플랫폼 구축을 비롯해 결제, 행사접수, 회비관리, 예약 서비스, 쿠폰·마일리지, 관리자 시스템 등<br>실제 서비스에 필요한 핵심 기능을 구현 해왔으며 안정적인 운영을 고려한 개발을 중요하게 생각합니다.<br>개발 과정에서 요구사항을 정확히 구현하는 데 집중하며,<br>경험을 쌓아가며 꾸준히 성장해 나가고자 합니다."
+  },
+  "skills": [
+    { "name": "PHP", "percentage": 70 },
+    { "name": "Laravel", "percentage": 65 },
+    { "name": "HTML", "percentage": 80 },
+    { "name": "CSS", "percentage": 60 },
+    { "name": "JavaScript", "percentage": 70 },
+    { "name": "MySQL / MariaDB", "percentage": 65 },
+    { "name": "Git", "percentage": 55 },
+    { "name": "Docker", "percentage": 55 }
+  ],
+  "resume": [
+    {
+      "title": "웹 개발자 양성 과정 6 개월",
+      "period": "2019/11 - 2020/4",
+      "description": "국비지원 과정을 을통한 자바와 스프링 교육"
+    },
+    {
+      "title": "한국 체스게임",
+      "period": "2020/6 - 2020/12",
+      "description": "Codeigniter / 그누보드를 사용한 거래소 사이트 AWS 와 Doker 학습"
+    },
+    {
+      "title": "와우리사이클",
+      "period": "2021/1 - 2021/05/31",
+      "description": "Laravel 및 Flutter 사용한 중고거래앱 개발 (Firebase를 이용한 채팅 구현)"
+    },
+    {
+      "title": "고니랩",
+      "period": "2021/6 - 2022/10/07",
+      "description": "Codeigniter / Laravel 을 사용한 예약 시스템 구현 및 <a href=\"https://butlerlounge.com\">버틀러라운지</a> 개발<br>(예약, 결제, 개발·마일리지, 소셜로그인 구현)"
+    },
+    {
+      "title": "이아이넷",
+      "period": "2022/11/01 - 2023/02/10",
+      "description": "Laravel 이용한 기업 복지몰 사이트로 예약 기능 구현"
+    },
+    {
+      "title": "엠투커뮤니티",
+      "period": "2023/3 ~",
+      "description": "학회/병원 사이트 위주로 개발·운영하며 레거시 코드 Larvel 로 개편 및 결제, 행사접수, 메일및 SMS 발송, 회비관리 등을 구현<br>API 연결을 통한 메일발송 시스템 개발"
+    }
+  ],
+  "projects": [
+    {
+      "id": "digitalnow",
+      "name": "digitalnow",
+      "category": "Web",
+      "filter": "filter-web",
+      "thumbnail": "./img/portfolio/digitalnow.png",
+      "images": [
+        "./img/portfolio/digitalnow/digitalnow.png"
+      ],
+      "framework": "Codeigniter",
+      "github": null,
+      "link": {
+        "url": "https://digitalnow.co.kr",
+        "text": "디지털나우"
+      },
+      "description": "Codeigniter 프레임워크를 이용한 PMS 기존 예약 PMS 에 대한 유지보수 및 신규 기능 구현 을 담당했으며 모바일 페이지 구현과 / 신규 예약 스킨 개발 / 문자템플릿 추가 등 전반적인 업무를 맡아서 진행했."
+    },
+    {
+      "id": "butlerlounge",
+      "name": "butlerlounge",
+      "category": "Web",
+      "filter": "filter-web",
+      "thumbnail": "./img/portfolio/butlerlounge.png",
+      "images": [
+        "./img/portfolio/butlerlounge/butlerlounge.png",
+        "./img/portfolio/butlerlounge/butlerlounge1.png",
+        "./img/portfolio/butlerlounge/butlerlounge2.png",
+        "./img/portfolio/butlerlounge/butlerlounge3.png",
+        "./img/portfolio/butlerlounge/butlerlounge4.png"
+      ],
+      "framework": "Laravel",
+      "github": null,
+      "link": {
+        "url": "https://butlerlounge.com",
+        "text": "버틀러라운지"
+      },
+      "description": "라라벨 프레임워크를 이용한 숙박 예약 플랫폼. 신규 제작 플랫폼으로서 처음부터 프로젝트에 참여. 업체 리스트 구현, 로그인 기능 구현 / sns 연동, 결제시스템 구현, 쿠폰 & 마일리지 구현 들을 맡아서 진행."
+    },
+    {
+      "id": "lotto",
+      "name": "LottoApp",
+      "category": "App",
+      "filter": "filter-app",
+      "thumbnail": "./img/portfolio/smartlotto_eng.png",
+      "images": [
+        "./img/portfolio/lotto/Screenshot_1620035396.png",
+        "./img/portfolio/lotto/Screenshot_1620035401.png",
+        "./img/portfolio/lotto/Screenshot_1620035499.png",
+        "./img/portfolio/lotto/Screenshot_1620035505.png",
+        "./img/portfolio/lotto/Screenshot_1620035523.png"
+      ],
+      "framework": "Laravel & Flutter",
+      "github": {
+        "url": "https://github.com/sanghyek223/LottoApp",
+        "text": "https://github.com/sanghyek223/LottoApp"
+      },
+      "link": {
+        "url": "https://play.google.com/store/apps/details?id=com.sanghyeklotto.flutter_lotto_app",
+        "text": "구글 플레이스토어 바로가기(로또 앱)"
+      },
+      "description": "라라벨을 백엔드 서버로 이용하고 플러터로 UI를 만들어 직접 플레이스토어에 배포해본 로또 번호 추천앱 입니다. 백엔드 서버는 AWS에 호스팅 하였으며 DB에 저장된 정보를 api를 통해 앱에 정보를 제공하고 있습니다. 만들면서 구글 애드몹을 이용한 광고도 붙여 보았고 로또 가 매주 토요일 추첨을 하게되면 앱에서도 새 당첨정보를 제공하여야 하는데 이부분은 크론탭을 이용하여 매주 토요일 오후 9:05분에 새 당첨정보를 가져와 DB에 저장하게 하여 당첨정보를 계속적으로 업데이트 하게 구현 하였습니다."
+    },
+    {
+      "id": "polaroid",
+      "name": "PolaroidApp",
+      "category": "App",
+      "filter": "filter-app",
+      "thumbnail": "./img/portfolio/polaroid.png",
+      "images": [
+        "./img/portfolio/polaroid/Screenshot_1620098722.png",
+        "./img/portfolio/polaroid/Screenshot_1620098757.png",
+        "./img/portfolio/polaroid/Screenshot_1620098779.png",
+        "./img/portfolio/polaroid/Screenshot_1620098792.png"
+      ],
+      "framework": "Flutter",
+      "github": {
+        "url": "https://github.com/sanghyek223/flutter-polaroid",
+        "text": "https://github.com/sanghyek223/flutter-polaroid"
+      },
+      "link": {
+        "url": "https://play.google.com/store/apps/details?id=com.asufi.polaroid",
+        "text": "구글 플레이스토어 바로가기(폴라로이드 앱)"
+      },
+      "description": "플러터로 구현한 폴라로이드 사진 앱 입니다. Provider 패턴을 공부하면서 만들게 되었고, 내 사진첩에 있는사진을 불러와 위젯만 보면 폴라로이드 사진을 찍은것같은 화면을 구현하였습니다. 또한 위젯 캡쳐를 사용해 캡쳐된 모습이 폴라로이드 사진을 인화한 것 같은 모습이 되게 하였으며, 갤러리에 캡쳐이미지를 저장할 수 있게 구현하였고 구글 폰트를 사용해 여러 글씨체도 제공하고 배경색상도 변경 할 수 있는 폴라로이드 어플을 구현하였습니다."
+    },
+    {
+      "id": "IyouMarket",
+      "name": "IyouMarket",
+      "category": "App",
+      "filter": "filter-app",
+      "thumbnail": "./img/portfolio/iyou_launcher.png",
+      "images": [
+        "./img/portfolio/iyoumarket/iyoumarket1.png",
+        "./img/portfolio/iyoumarket/iyoumarket2.png",
+        "./img/portfolio/iyoumarket/iyoumarket3.png",
+        "./img/portfolio/iyoumarket/iyoumarket4.png",
+        "./img/portfolio/iyoumarket/iyoumarket5.png",
+        "./img/portfolio/iyoumarket/iyoumarket6.png",
+        "./img/portfolio/iyoumarket/iyoumarket7.png"
+      ],
+      "framework": "Laravel & Flutter",
+      "github": null,
+      "link": null,
+      "description": "스타트업 회사에서 중고거래 앱을 만들어 출시를 하였고 백엔드로는 Laravel 을 사용 UI는 플러터로 제작된 중고거래 플랫폼 입니다. 내주변 5Km이내에 상품을 리스트화 시켜 보여주고 지도로 위치를 변경할 경우 해당 지도범위 5Km내 상품을 다시 찾아서 보여주게 됩니다. 회원간의 채팅을 통한 거래를 할 수 있게 파이어베이스를 이용한 채팅을 구현 하였습니다"
+    }
+  ]
+}

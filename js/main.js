@@ -16,18 +16,18 @@
     }
   });
 
-  // Hero typed
-  if ($('.typed').length) {
-    var typed_strings = $(".typed").data('typed-items');
-    typed_strings = typed_strings.split(',')
-    new Typed('.typed', {
-      strings: typed_strings,
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
-    });
-  }
+  // Hero typed - 초기화는 data.json 로드 후 index.html에서 처리
+  // if ($('.typed').length) {
+  //   var typed_strings = $(".typed").data('typed-items');
+  //   typed_strings = typed_strings.split(',')
+  //   new Typed('.typed', {
+  //     strings: typed_strings,
+  //     loop: true,
+  //     typeSpeed: 100,
+  //     backSpeed: 50,
+  //     backDelay: 2000
+  //   });
+  // }
 
   // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on('click', '.nav-menu a, .scrollto', function(e) {
